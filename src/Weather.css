@@ -1,0 +1,67 @@
+.Weather .today {
+  padding: 1rem 1rem;
+  background: transparent;
+  color: #46662f;
+  min-width: 0;
+  position: relative;
+  bottom: 6px;
+}
+.Weather .city {
+  font-weight: 900;
+  font-size: 40px;
+  position: relative;
+  top: 48px;
+  text-transform: capitalize;
+}
+.Weather .conditions {
+  text-transform: capitalize;
+}
+.Weather .curr-day {
+  font-size: 18px;
+}
+.Weather .feels-like-wind-speed {
+  position: relative;
+  bottom: 1px;
+}
+.Weather .conditions {
+  font-size: 20px;
+}
+.Weather .city,
+.Weather .today-icon-conditions {
+  text-align: center;
+}
+.Weather .city,
+.Weather .today-icon-conditions {
+  position: relative;
+  left: 7px;
+}
+.Weather .temp {
+  position: relative;
+  top: 5px;
+}
+.Weather .curr-temp {
+  font-size: 47px;
+  position: relative;
+  top: 30px;
+}
+.Weather .temp-unit {
+  font-size: 20px;
+  position: relative;
+  top: 10px;
+  right: 2px;
+}
+.Weather .container {
+  max-width: 70%;
+}
+.Weather .today-icon {
+  position: relative;
+  bottom: 15px;
+}
+.Weather .active {
+  color: #405d2b;
+  text-decoration: none;
+}
+.Weather .active:hover {
+  color: #405d2b;
+  cursor: text;
+}
